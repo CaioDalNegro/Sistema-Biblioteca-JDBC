@@ -69,7 +69,7 @@ public class Biblioteca extends JFrame {
         textField = new JTextField();
         textField.setBackground(new Color(192, 192, 192));
         textField.setEditable(false);
-        textField.setBounds(27, 90, 547, 413);
+        textField.setBounds(27, 90, 547, 130);
         textField.setFont(new Font("Arial", Font.PLAIN, 16));
         contentPane.add(textField);
 
@@ -80,7 +80,7 @@ public class Biblioteca extends JFrame {
 
         btnEmprestar = new JButton("Emprestar");
         btnEmprestar.setFont(new Font("Tahoma", Font.PLAIN, 18));
-        btnEmprestar.setBounds(630, 168, 157, 55);
+        btnEmprestar.setBounds(86, 234, 157, 55);
         btnEmprestar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String usuario = JOptionPane.showInputDialog("Digite o nome do usuário:");
@@ -105,7 +105,7 @@ public class Biblioteca extends JFrame {
 
         btnDevolver = new JButton("Devolver");
         btnDevolver.setFont(new Font("Tahoma", Font.PLAIN, 18));
-        btnDevolver.setBounds(630, 348, 157, 55);
+        btnDevolver.setBounds(305, 234, 157, 55);
         btnDevolver.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String usuario = JOptionPane.showInputDialog("Digite o nome do usuário:");
